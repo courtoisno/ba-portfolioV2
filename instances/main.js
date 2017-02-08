@@ -14,73 +14,90 @@ $(function() {
 
  $("#madeIn").mouseover(function(){
    $("#1i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj1").css( "opacity", "0.5");
   });
   $("#madeIn").mouseout(function(){
    $("#1i").fadeTo("fast", 0);
+  $(".ho").not("#proj1").css( "opacity", "1");
   });
 
 $("#Omen").mouseover(function(){
    $("#2i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj2").css( "opacity", "0.5");
   });
   $("#Omen").mouseout(function(){
    $("#2i").fadeTo("fast", 0);
+  $(".ho").not("#proj2").css( "opacity", "1");
+
   });
 
   $("#More").mouseover(function(){
    $("#3i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj10").css( "opacity", "0.5");
   });
   $("#More").mouseout(function(){
    $("#3i").fadeTo("fast", 0);
+   $(".ho").not("#proj10").css( "opacity", "1");
+
   });
 
 
   $("#asics").mouseover(function(){
    $("#4i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj3").css( "opacity", "0.5");
   });
   $("#asics").mouseout(function(){
    $("#4i").fadeTo("fast", 0);
+   $(".ho").not("#proj3").css( "opacity", "1");
+
   });
 
     $("#pfiser").mouseover(function(){
    $("#5i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj4").css( "opacity", "0.5");
   });
   $("#pfiser").mouseout(function(){
    $("#5i").fadeTo("fast", 0);
+   $(".ho").not("#proj4").css( "opacity", "1");
+
   });
 
       $("#ps1").mouseover(function(){
    $("#7i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj5").css( "opacity", "0.5");
   });
   $("#ps1").mouseout(function(){
    $("#7i").fadeTo("fast", 0);
+   $(".ho").not("#proj5").css( "opacity", "1");
+
   });
 
     $("#shack").mouseover(function(){
    $("#8i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj6").css( "opacity", "0.5");
   });
   $("#shack").mouseout(function(){
    $("#8i").fadeTo("fast", 0);
+   $(".ho").not("#proj6").css( "opacity", "1");
+
   });
     $("#dhl").mouseover(function(){
    $("#6i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj7").css( "opacity", "0.5");
   });
   $("#dhl").mouseout(function(){
    $("#6i").fadeTo("fast", 0);
+   $(".ho").not("#proj7").css( "opacity", "1");
+
   });
  $("#ps2").mouseover(function(){
    $("#9i").stop().fadeTo( "fast", 0.9);
-   $(".ho").css( "color", "black");
+   $(".ho").not("#proj8").css( "opacity", "0.5");
   });
   $("#ps2").mouseout(function(){
    $("#9i").fadeTo("fast", 0);
+   $(".ho").not("#proj8").css( "opacity", "1");
+
   });
 
 
